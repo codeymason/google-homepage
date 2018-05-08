@@ -1,19 +1,19 @@
-header nav ul {
+#topmenu {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-header nav ul li {
+#topmenu li {
   float: left;
 }
 
-header nav ul li img {
+#topmenu li img {
   margin-right: 10px;
 }
 
-header nav ul li a {
+#topmenu li a {
   display: block;
   text-align: center;
   padding: 15px 2px 0px 2px;
@@ -25,7 +25,7 @@ header nav ul li a {
   text-decoration: none;
 }
 
-header nav ul li a:hover {
+#topmenu li a:hover {
   text-decoration: underline;
 }
 
@@ -76,7 +76,7 @@ input[type=submit]:hover {
   text-align: -webkit-center;
 }
 
-footer nav ul {
+#bottommenu {
   background-color: #f2f2f2;
   list-style-type: none;
   margin: 0;
@@ -89,11 +89,11 @@ footer nav ul {
   border-top: 2px solid #EDEDED;
 }
 
-footer nav ul li {
+#bottommenu li {
   float: left;
 }
 
-footer nav ul li a {
+#bottommenu li a {
   display: block;
   text-align: center;
   padding: 15px 5px 0px 5px;
@@ -105,7 +105,7 @@ footer nav ul li a {
   text-decoration: none;
 }
 
-footer nav ul li a:hover {
+#bottommenu li a:hover {
   text-decoration: underline;
 }
 
