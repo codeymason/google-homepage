@@ -52,6 +52,11 @@ input[type=text] {
   line-height: 34px;
 }
 
+input[type=text]:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
 input[type=submit] {
   width: auto;
   height: 36px;
@@ -108,4 +113,5 @@ input[type=submit]:hover {
 #bottommenu li a:hover {
   text-decoration: underline;
 }
+
 
